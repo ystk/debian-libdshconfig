@@ -1,0 +1,11 @@
+0.20.13 - 15 Aug 2007
+
+ + update spec file.
+
+0.20.12 - 20 Jan 2006
+
+ + use doxygen to generate documentation instead of doc++
+
+0.20.11 - 6 June 2004
+
+ + Add versioned symbols support
