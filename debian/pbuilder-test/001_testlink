@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e 
+gcc -ldshconfig /tmp/buildd/*/debian/../test-dshconfig.c -o /tmp/001_testlink
+echo a: b|/tmp/001_testlink |grep '^\[a\]=\[b\]$'

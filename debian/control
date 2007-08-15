@@ -1,0 +1,31 @@
+Source: libdshconfig
+Section: libs
+Priority: optional
+Maintainer: Junichi Uekawa <dancer@debian.org>
+Build-Depends: debhelper (>> 4.0.0), libtool, d-shlibs (>= 0.4), doxygen
+Standards-Version: 3.7.2
+
+Package: libdshconfig1
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}
+Description: configuration file parser library for dsh - runtime
+ Runtime library for configuration file parser,
+ required for running programs with dsh config file support.
+ .
+ dsh uses this library to parse configuration files.
+
+Package: libdshconfig1-dev
+Architecture: any
+Section: libdevel
+Depends: libdshconfig1 (= ${binary:Version}), ${devlibs:Depends}
+Provides: libdshconfig-dev
+Conflicts: libdshconfig-dev
+Description: configuration file parser library for dsh - development
+ Development library for a simple configuration file parser.
+ .
+ Includes the necessary files for compiling programs with
+ libdshconfig.
+ .
+ This library supports a very simple line-based configuration file 
+ format.

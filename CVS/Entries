@@ -1,0 +1,19 @@
+/AUTHORS/1.2/Tue Jan  6 00:28:35 2004//
+/COPYING/1.1/Sat Apr 20 14:45:33 2002//
+/INSTALL/1.1/Sat Apr 20 14:45:33 2002//
+/README/1.1/Sat Apr 20 14:45:33 2002//
+/autogen.sh/1.5/Sat Dec  7 09:25:24 2002//
+/dsh.ver/1.2/Fri May 28 20:31:06 2004//
+/libdshconfig.c/1.7/Tue Jan  6 00:28:35 2004//
+/libdshconfig.h/1.2/Sat Jun 29 14:13:32 2002//
+/test-dshconfig-searchdata.c/1.1/Wed Sep 25 10:48:13 2002//
+/test-dshconfig.c/1.1.1.1/Sat Apr 20 14:03:00 2002//
+D/debian////
+D/tests////
+/Makefile.am/1.16/Fri Jan 20 00:14:52 2006//
+/.cvsignore/1.8/Fri Jan 20 00:31:56 2006//
+/libdshconfig.dox.in/1.2/Tue Jan 24 09:17:38 2006//
+/libdshconfig.spec/1.2/Tue Aug 14 23:28:50 2007//
+/configure.ac/1.25/Tue Aug 14 23:30:23 2007//
+/NEWS/1.4/Tue Aug 14 23:30:35 2007//
+/ChangeLog/1.44/Tue Aug 14 23:29:03 2007//
