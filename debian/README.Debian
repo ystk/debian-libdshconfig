@@ -1,0 +1,17 @@
+libdshconfig for Debian
+--------------
+
+libdshconfig is a library used in "dsh" project and others 
+for parsing strings of text configuration into a linked list.
+Whether this is really an easy-to-use system is up to
+much debate, but it has been split out from the main code
+to ease code sharing and updates.
+
+The author has a home page at 
+  http://www.netfort.gr.jp/~dancer/
+and the primary page for dsh is at 
+  http://www.netfort.gr.jp/~dancer/software/dsh.html
+
+enjoy.
+
+ -- Junichi Uekawa <dancer@debian.org>, Fri, 11 Aug 2006 22:42:13 +0900
